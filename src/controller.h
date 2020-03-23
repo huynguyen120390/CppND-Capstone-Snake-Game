@@ -9,8 +9,8 @@ class Controller {
   Controller();//contructor 
   ~Controller();//destructor
   
-  Controller(const Controller &source) = delete;//copy constructor - Nocopy Semantics
-  Controller &operator=(const Controller &source) = delete;//copy operator - Nocopy Semantics
+  Controller(const Controller &source);//copy constructor 
+  Controller &operator=(const Controller &source);//copy operator
   Controller(Controller &&source); //move constructor
   Controller &operator=(Controller &&source); //move operator
 
