@@ -4,6 +4,68 @@
 
 Snake::Snake(){};
 Snake::~Snake(){};
+Snake::Snake(int grid_width,int grid_height): grid_width(grid_width),
+                grid_height(grid_height),
+                head_x(grid_width / 2),
+                head_y(grid_height / 2){}
+
+Snake &Snake::operator=(const Snake &source){
+  if(this == &source){
+    return *this;
+  }
+  direction = source.direction;
+  speed = source.speed;
+  size = source.size;
+  alive = source.alive;
+  head_x = source.head_x;
+  head_y = source.head_y;
+  body = source.body;
+  growing = source.growing;
+  grid_width = source.grid_width;
+  grid_height = source.grid_height;
+  return *this;
+};
+Snake::Snake(const Snake &source){
+  direction = source.direction;
+  speed = source.speed;
+  size = source.size;
+  alive = source.alive;
+  head_x = source.head_x;
+  head_y = source.head_y;
+  body = source.body;
+  growing = source.growing;
+  grid_width = source.grid_width;
+  grid_height = source.grid_height;
+};
+Snake::Snake(const Snake &&source){
+  direction = source.direction;
+  speed = source.speed;
+  size = source.size;
+  alive = source.alive;
+  head_x = source.head_x;
+  head_y = source.head_y;
+  body = source.body;
+  growing = source.growing;
+  grid_width = source.grid_width;
+  grid_height = source.grid_height;
+};
+Snake &Snake::operator=(const Snake &&source){
+  if(this == &source){
+    return *this;
+  }
+  direction = source.direction;
+  speed = source.speed;
+  size = source.size;
+  alive = source.alive;
+  head_x = source.head_x;
+  head_y = source.head_y;
+  body = source.body;
+  growing = source.growing;
+  grid_width = source.grid_width;
+  grid_height = source.grid_height;
+  return *this;
+};
+
 void Snake::Update() {
   SDL_Point prev_cell{
       static_cast<int>(head_x),
