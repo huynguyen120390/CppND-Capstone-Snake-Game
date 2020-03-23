@@ -3,6 +3,44 @@
 #include "SDL.h"
 #include "snake.h"
 
+//Mempry Management:Rule of 5
+//contructor 
+Controller::Controller(){
+  std::cout << "Controller Default Constructor" << std::endl;
+};
+//destructor
+Controller::~Controller(){
+  std::cout << "Controller Default Destructor" << std::endl;
+};
+//copy constructor
+Controller::Controller(const Controller &source){
+  std::cout << "Controller Copy Constructor" << std::endl;
+  *this = source;
+};
+//copy operator
+Controller &Controller::operator=(const Controller &source){
+  std::cout << "Controller Copy Operator" <<std::endl;
+  return *this;
+};
+//move constructor
+Controller::Controller(Controller &&source){
+  if(this != &source){
+    delete this;
+    *this = source;
+    //delete source;
+  }
+}; 
+//move operator
+Controller &Controller::operator=(Controller &&source){
+  if(this == &source){
+    return *this;
+  }
+  delete this;
+  *this = source;
+  //delete source;
+  return *this;
+}; 
+
 void Controller::ChangeDirection(Snake &snake, Snake::Direction input,
                                  Snake::Direction opposite) const {
   if (snake.direction != opposite || snake.size == 1) snake.direction = input;

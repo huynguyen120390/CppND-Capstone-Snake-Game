@@ -9,7 +9,44 @@ Game::Game(std::size_t grid_width, std::size_t grid_height)
       random_h(0, static_cast<int>(grid_height)) {
   PlaceFood();
 }
-
+Game::Game(){};
+Game::~Game(){};
+Game::Game(const Game &source){
+  snake = source.snake;
+  food = source.food;
+  score = source.score;
+};
+Game &Game::operator=(const Game &source){
+  if(this == &source){
+    return *this;
+  }
+  snake = source.snake;
+  food = source.food;
+  score = source.score;
+  return *this;
+};
+Game::Game(Game &&source){
+  snake = source.snake;
+  food = source.food;
+  score = source.score;
+  
+  source.snake = Snake();
+ // source.food = SDL_Point();
+  source.score = 0;
+};
+Game &Game::operator=(Game &&source){
+  if(this == &source){
+    return *this;
+  }
+  snake = source.snake;
+  food = source.food;
+  score = source.score;
+  
+  source.snake = Snake();
+  //source.food = SDL_Point();
+  source.score = 0;
+  return *this;
+};
 void Game::Run(Controller const &controller, Renderer &renderer,
                std::size_t target_frame_duration) {
   Uint32 title_timestamp = SDL_GetTicks();
