@@ -5,11 +5,12 @@
 
 class Controller {
  public:
-  //Mempry Management:Rule of 5
+  //Memory Management: Senmantics
   Controller();//contructor 
   ~Controller();//destructor
-  Controller(const Controller &source);//copy constructor
-  Controller &operator=(const Controller &source);//copy operator
+  
+  Controller(const Controller &source) = delete;//copy constructor - Nocopy Semantics
+  Controller &operator=(const Controller &source) = delete;//copy operator - Nocopy Semantics
   Controller(Controller &&source); //move constructor
   Controller &operator=(Controller &&source); //move operator
 
