@@ -1,5 +1,5 @@
-#ifndef FOX_H
-#define FOX_H
+#ifndef FOXS_H
+#define FOXS_H
 //  Fox is the predator of snake.
 #include <random>
 #include <stdlib.h>

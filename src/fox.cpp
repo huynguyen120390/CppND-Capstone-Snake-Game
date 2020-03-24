@@ -14,7 +14,6 @@ Fox::~Fox(){};
 void Fox::SelectMove(){
     //direction = moveDirection(engine);
     direction = Fox::Direction::up;
-    return direction;
 }
 
 void Fox::UpdatePosition(){
