@@ -25,6 +25,7 @@ class Game {
  private:
   Snake snake;
   SDL_Point food;
+  Fox fox;
 
   std::random_device dev;
   std::mt19937 engine;
