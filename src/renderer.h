@@ -4,6 +4,7 @@
 #include <vector>
 #include "SDL.h"
 #include "snake.h"
+#include "fox.h"
 
 class Renderer {
  public:
@@ -13,7 +14,7 @@ class Renderer {
   Renderer(const Renderer &source) = delete; //Nocopy Semantics
   Renderer &operator=(const Renderer &source) = delete; //Nocopy Semantics
 
-  void Render(Snake const snake, SDL_Point const &food), Fox const fox);
+  void Render(Snake const snake, SDL_Point const &food, Fox const fox);
   void UpdateWindowTitle(int score, int fps);
 
  private:
