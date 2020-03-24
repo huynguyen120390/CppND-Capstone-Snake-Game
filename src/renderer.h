@@ -13,7 +13,7 @@ class Renderer {
   Renderer(const Renderer &source) = delete; //Nocopy Semantics
   Renderer &operator=(const Renderer &source) = delete; //Nocopy Semantics
 
-  void Render(Snake const snake, SDL_Point const &food);
+  void Render(Snake const snake, SDL_Point const &food), Fox const fox);
   void UpdateWindowTitle(int score, int fps);
 
  private:
