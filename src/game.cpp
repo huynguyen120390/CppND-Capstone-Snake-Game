@@ -4,6 +4,8 @@
 
 Game::Game(std::size_t grid_width, std::size_t grid_height)
     : snake(grid_width, grid_height),
+      fox(grid_width,grid_height),
+      grid_width(grid_width), grid_height(grid_height),
       engine(dev()),
       random_w(0, static_cast<int>(grid_width)),
       random_h(0, static_cast<int>(grid_height)) {
@@ -92,6 +94,8 @@ void Game::PlaceFood() {
   while (true) {
     x = random_w(engine);
     y = random_h(engine);
+    x = fmod(x + grid_width, grid_width);
+    y = fmod(y + grid_height, grid_height);
     // Check that the location is not occupied by a snake item before placing
     // food.
     if (!snake.SnakeCell(x, y)) {
@@ -104,13 +108,16 @@ void Game::PlaceFood() {
 
 void Game::Update() {
   if (!snake.alive) return;
-  if (snake.SnakeCell(fox.x,fox.y)) return;
+  if (snake.SnakeCell(fox.x,fox.y)) {
+    snake.alive = false;
+    std::cout << "Fox eats Snake" <<std::endl;
+    return;
+  }
 
   fox.UpdatePosition();
   snake.Update();
   std::cout << "fox" <<fox.x <<" " <<fox.y <<std::endl;
   
-
   int new_x = static_cast<int>(snake.head_x);
   int new_y = static_cast<int>(snake.head_y);
   

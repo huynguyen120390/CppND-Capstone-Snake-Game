@@ -26,6 +26,7 @@ class Game {
   Snake snake;
   SDL_Point food;
   Fox fox;
+  int grid_height,grid_width;
 
   std::random_device dev;
   std::mt19937 engine;
