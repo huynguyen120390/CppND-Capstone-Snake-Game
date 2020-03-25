@@ -11,10 +11,6 @@ class Fox{
         Fox();
         ~Fox();
         //Fox(int grid_width,int grid_height);
-        //Fox &operator=(const Fox &source);
-        //Fox(const Fox &source);
-        //Fox(const Fox &&source);
-        //Fox &operator=(const Fox &&source);
         bool appear{true};
         bool FoxCell(int x, int y);
         Direction direction = Direction::up;
@@ -28,10 +24,6 @@ class Fox{
         void Appear();
     private:
         int grid_width, grid_height;
-        
-        //std::random_device dev;
-        //std::mt19937 engine(dev);
-        //std::uniform_int_distribution<int> moveDirection(0,3);
         
         
         

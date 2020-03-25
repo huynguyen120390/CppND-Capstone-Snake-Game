@@ -17,6 +17,15 @@ void Fox::SelectMove(){
 }
 
 void Fox::UpdatePosition(){
+    std::random_device dev;
+    std::mt19937 engine(dev());
+    std::uniform_int_distribution<int> dis(0,3);
+    int dir = dis(engine);
+    if(dir == 0) direction = Direction::up;
+    else if(dir == 1) direction = Direction::down;
+    else if(dir == 2) direction = Direction::left;
+    else if(dir == 3) direction = Direction::right;
+        
     switch (direction) {
         case Direction::up:
         y -= speed;
