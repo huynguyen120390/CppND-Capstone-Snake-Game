@@ -10,23 +10,19 @@ class Fox{
         enum class Direction{up,down,left,right};
         Fox();
         ~Fox();
-        //Fox(int grid_width,int grid_height);
+        Fox(int grid_width,int grid_height);
         bool appear{true};
         bool FoxCell(int x, int y);
         Direction direction = Direction::up;
         float speed{0.1f};
-        int size{1};
         bool move{true};
-        float x = 0;
-        float y = 0;
+        float x{0};
+        float y{0};
         void UpdatePosition();
         void SelectMove();
         void Appear();
     private:
         int grid_width, grid_height;
-        
-        
-        
 };
 
 #endif

@@ -106,7 +106,10 @@ void Game::Update() {
   if (!snake.alive) return;
   if (snake.SnakeCell(fox.x,fox.y)) return;
 
+  fox.UpdatePosition();
   snake.Update();
+  std::cout << "fox" <<fox.x <<" " <<fox.y <<std::endl;
+  
 
   int new_x = static_cast<int>(snake.head_x);
   int new_y = static_cast<int>(snake.head_y);

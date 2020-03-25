@@ -6,6 +6,7 @@
 
 Fox::Fox(){};
 Fox::~Fox(){};
+Fox::Fox(int grid_width, int grid_height):grid_width(grid_width), grid_height(grid_height){}
 //Fox &Fox::operator=(const Fox &source){};
 //Fox(const Fox &source){};
 //Fox(const Fox &&source){};
@@ -43,6 +44,9 @@ void Fox::UpdatePosition(){
         x += speed;
         break;
     }
+
+    x = fmod(x + grid_width, grid_width);
+    y = fmod(y + grid_height, grid_height);
 }
 
 bool Fox::FoxCell(int x, int y) {
