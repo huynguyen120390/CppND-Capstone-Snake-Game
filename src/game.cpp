@@ -108,7 +108,11 @@ void Game::PlaceFood() {
 
 void Game::Update() {
   if (!snake.alive) return;
-  if (snake.SnakeCell(fox.x,fox.y)) {
+
+  int fox_x = static_cast<int>(fox.x);
+  int fox_y = static_cast<int>(fox.y);
+
+  if (snake.SnakeCell(fox_x,fox_y)) {
     snake.alive = false;
     std::cout << "Fox eats Snake" <<std::endl;
     return;

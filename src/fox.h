@@ -14,7 +14,7 @@ class Fox{
         bool appear{true};
         bool FoxCell(int x, int y);
         Direction direction = Direction::up;
-        float speed{0.01f};
+        float speed{1.0f};
         bool move{true};
         float x{0};
         float y{0};
