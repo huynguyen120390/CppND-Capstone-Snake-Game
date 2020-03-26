@@ -112,13 +112,14 @@ void Game::Update() {
   int fox_x = static_cast<int>(fox.x);
   int fox_y = static_cast<int>(fox.y);
 
-  if (snake.SnakeCell(fox_x,fox_y)) {
-    snake.alive = false;
-    std::cout << "Fox eats Snake" <<std::endl;
-    return;
+  if(free.freeze == false){
+    if (snake.SnakeCell(fox_x,fox_y)) {
+      snake.alive = false;
+      std::cout << "Fox eats Snake" <<std::endl;
+      return;
+    }
+    fox.UpdatePosition();
   }
-
-  fox.UpdatePosition();
   snake.Update();
   std::cout << "fox" <<fox.x <<" " <<fox.y <<std::endl;
   
