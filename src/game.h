@@ -41,8 +41,8 @@ class Game {
   std::uniform_int_distribution<int> random_w;
   std::uniform_int_distribution<int> random_h;
   bool timeover;
-  int time = 2; //sec
-
+  int time{600}; //sec
+  bool firsttime{false}; //first time eat super food
   int score{0};
 
   void PlaceFood();

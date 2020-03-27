@@ -2,6 +2,7 @@
 #include <iostream>
 #include "SDL.h"
 
+
 Game::Game(std::size_t grid_width, std::size_t grid_height)
     : snake(grid_width, grid_height),
       fox(grid_width,grid_height),
@@ -79,7 +80,7 @@ void Game::Run(Controller const &controller, Renderer &renderer,
   t = std::thread(&Game::DeadlineTimer,this);
 
   while (running) {
-    if(timeover == true){
+    if(timeover == true ){
       snake.alive = false;
       std::cout << "Time over" << std::endl;
     }
@@ -146,8 +147,6 @@ void Game::PlaceSuperFood(){
 
   }
 }
-bool firsttime = true;
-
 
 void Game::Update() {
 
@@ -162,8 +161,6 @@ void Game::Update() {
     superfood.y = -100;
 
     //freeze
-    //threads.emplace_back(std::thread(&SuperFood::FreezeFox,std::ref(superfood),std::move(prms),std::move(fox)));
-    //threads.emplace_back(std::thread(&SuperFood::FreezeFox,std::move(prms),std::move(fox)));
     superfood.startT = std::chrono::system_clock::now();
     superfood.FreezeFox(std::move(fox));
   }
@@ -176,14 +173,10 @@ void Game::Update() {
   
   superfood.CheckReleaseFox(std::move(fox));
   if(fox.GetFreeze() == false){
-  //  threads.at(0).join();
    fox.UpdatePosition();
   }
-
   
   snake.Update();
-  //std::cout << "fox" <<fox.x <<" " <<fox.y <<std::endl;
-  
   int new_x = static_cast<int>(snake.head_x);
   int new_y = static_cast<int>(snake.head_y);
   
@@ -195,9 +188,9 @@ void Game::Update() {
     snake.GrowBody();
     snake.speed += 0.02;
     firsttime = true;
+    std::cout << "here" <<std::endl;
   }
 
-  
   if(score % 3 == 0 && firsttime){
     firsttime = false;
     PlaceSuperFood();

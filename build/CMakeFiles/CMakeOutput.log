@@ -28,15 +28,15 @@ The CXX compiler identification is GNU, found in "/home/huynguyen/CodeLab/Github
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d0e8a/fast"
+Run Build Command:"/usr/bin/make" "cmTC_f0ee5/fast"
 make[2]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_d0e8a.dir/build.make CMakeFiles/cmTC_d0e8a.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_f0ee5.dir/build.make CMakeFiles/cmTC_f0ee5.dir/build
 make[3]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d0e8a.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_d0e8a.dir/testCCompiler.c.o   -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_d0e8a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0e8a.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_d0e8a.dir/testCCompiler.c.o  -o cmTC_d0e8a 
+Building C object CMakeFiles/cmTC_f0ee5.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f0ee5.dir/testCCompiler.c.o   -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f0ee5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0ee5.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f0ee5.dir/testCCompiler.c.o  -o cmTC_f0ee5 
 make[3]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 
@@ -44,15 +44,15 @@ make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Sn
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5c2b4/fast"
+Run Build Command:"/usr/bin/make" "cmTC_79631/fast"
 make[2]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_5c2b4.dir/build.make CMakeFiles/cmTC_5c2b4.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_79631.dir/build.make CMakeFiles/cmTC_79631.dir/build
 make[3]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5c2b4.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_5c2b4.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_5c2b4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c2b4.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_5c2b4.dir/CMakeCCompilerABI.c.o  -o cmTC_5c2b4 
+Building C object CMakeFiles/cmTC_79631.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_79631.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_79631
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79631.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_79631.dir/CMakeCCompilerABI.c.o  -o cmTC_79631 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
@@ -64,9 +64,9 @@ Thread model: posix
 gcc version 9.2.1 20191008 (Ubuntu 9.2.1-9ubuntu2) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5c2b4' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIIQIkY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5c2b4 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_5c2b4.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5c2b4' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_79631' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cck2CDkr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_79631 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_79631.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_79631' '-mtune=generic' '-march=x86-64'
 make[3]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 
@@ -75,15 +75,15 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5c2b4/fast"]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_79631/fast"]
   ignore line: [make[2]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5c2b4.dir/build.make CMakeFiles/cmTC_5c2b4.dir/build]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_79631.dir/build.make CMakeFiles/cmTC_79631.dir/build]
   ignore line: [make[3]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_5c2b4.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_5c2b4.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_5c2b4]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c2b4.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_5c2b4.dir/CMakeCCompilerABI.c.o  -o cmTC_5c2b4 ]
+  ignore line: [Building C object CMakeFiles/cmTC_79631.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_79631.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_79631]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79631.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_79631.dir/CMakeCCompilerABI.c.o  -o cmTC_79631 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
@@ -95,13 +95,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 9.2.1 20191008 (Ubuntu 9.2.1-9ubuntu2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5c2b4' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIIQIkY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5c2b4 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_5c2b4.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_79631' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cck2CDkr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_79631 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_79631.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccIIQIkY.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cck2CDkr.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -119,7 +119,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_5c2b4] ==> ignore
+    arg [cmTC_79631] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
@@ -131,7 +131,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
-    arg [CMakeFiles/cmTC_5c2b4.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_79631.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -163,15 +163,15 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8d8b7/fast"
+Run Build Command:"/usr/bin/make" "cmTC_3df4d/fast"
 make[2]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_8d8b7.dir/build.make CMakeFiles/cmTC_8d8b7.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_3df4d.dir/build.make CMakeFiles/cmTC_3df4d.dir/build
 make[3]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8d8b7.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_8d8b7.dir/feature_tests.c.o   -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_8d8b7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d8b7.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_8d8b7.dir/feature_tests.c.o  -o cmTC_8d8b7 
+Building C object CMakeFiles/cmTC_3df4d.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_3df4d.dir/feature_tests.c.o   -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3df4d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3df4d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3df4d.dir/feature_tests.c.o  -o cmTC_3df4d 
 make[3]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 
@@ -185,15 +185,15 @@ make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Sn
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e3723/fast"
+Run Build Command:"/usr/bin/make" "cmTC_29677/fast"
 make[2]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_e3723.dir/build.make CMakeFiles/cmTC_e3723.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_29677.dir/build.make CMakeFiles/cmTC_29677.dir/build
 make[3]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e3723.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_e3723.dir/feature_tests.c.o   -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e3723
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3723.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_e3723.dir/feature_tests.c.o  -o cmTC_e3723 
+Building C object CMakeFiles/cmTC_29677.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_29677.dir/feature_tests.c.o   -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_29677
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29677.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_29677.dir/feature_tests.c.o  -o cmTC_29677 
 make[3]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 
@@ -207,15 +207,15 @@ make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Sn
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b12c7/fast"
+Run Build Command:"/usr/bin/make" "cmTC_97f94/fast"
 make[2]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_b12c7.dir/build.make CMakeFiles/cmTC_b12c7.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_97f94.dir/build.make CMakeFiles/cmTC_97f94.dir/build
 make[3]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b12c7.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_b12c7.dir/feature_tests.c.o   -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b12c7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b12c7.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_b12c7.dir/feature_tests.c.o  -o cmTC_b12c7 
+Building C object CMakeFiles/cmTC_97f94.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_97f94.dir/feature_tests.c.o   -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_97f94
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97f94.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_97f94.dir/feature_tests.c.o  -o cmTC_97f94 
 make[3]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 
@@ -227,15 +227,15 @@ make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Sn
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bfdbc/fast"
+Run Build Command:"/usr/bin/make" "cmTC_832fe/fast"
 make[2]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_bfdbc.dir/build.make CMakeFiles/cmTC_bfdbc.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_832fe.dir/build.make CMakeFiles/cmTC_832fe.dir/build
 make[3]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bfdbc.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_bfdbc.dir/testCXXCompiler.cxx.o -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_bfdbc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfdbc.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_bfdbc.dir/testCXXCompiler.cxx.o  -o cmTC_bfdbc 
+Building CXX object CMakeFiles/cmTC_832fe.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_832fe.dir/testCXXCompiler.cxx.o -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_832fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_832fe.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_832fe.dir/testCXXCompiler.cxx.o  -o cmTC_832fe 
 make[3]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 
@@ -243,15 +243,15 @@ make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Sn
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f72f4/fast"
+Run Build Command:"/usr/bin/make" "cmTC_a622d/fast"
 make[2]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_f72f4.dir/build.make CMakeFiles/cmTC_f72f4.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_a622d.dir/build.make CMakeFiles/cmTC_a622d.dir/build
 make[3]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f72f4.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_f72f4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_f72f4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f72f4.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_f72f4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f72f4 
+Building CXX object CMakeFiles/cmTC_a622d.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_a622d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a622d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a622d.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_a622d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a622d 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
@@ -263,9 +263,9 @@ Thread model: posix
 gcc version 9.2.1 20191008 (Ubuntu 9.2.1-9ubuntu2) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f72f4' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgy8mtW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f72f4 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_f72f4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f72f4' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a622d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnCLExl.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a622d /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_a622d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a622d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[3]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 
@@ -274,15 +274,15 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f72f4/fast"]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a622d/fast"]
   ignore line: [make[2]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f72f4.dir/build.make CMakeFiles/cmTC_f72f4.dir/build]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a622d.dir/build.make CMakeFiles/cmTC_a622d.dir/build]
   ignore line: [make[3]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_f72f4.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_f72f4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_f72f4]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f72f4.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_f72f4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f72f4 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_a622d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_a622d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_a622d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a622d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_a622d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a622d ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
@@ -294,13 +294,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 9.2.1 20191008 (Ubuntu 9.2.1-9ubuntu2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f72f4' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgy8mtW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f72f4 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_f72f4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a622d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnCLExl.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a622d /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_a622d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccgy8mtW.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccnCLExl.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -318,7 +318,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f72f4] ==> ignore
+    arg [cmTC_a622d] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
@@ -330,7 +330,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
-    arg [CMakeFiles/cmTC_f72f4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_a622d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -358,15 +358,15 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
 Change Dir: /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_50cb7/fast"
+Run Build Command:"/usr/bin/make" "cmTC_af61a/fast"
 make[2]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_50cb7.dir/build.make CMakeFiles/cmTC_50cb7.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_af61a.dir/build.make CMakeFiles/cmTC_af61a.dir/build
 make[3]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_50cb7.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_50cb7.dir/feature_tests.cxx.o -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_50cb7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50cb7.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_50cb7.dir/feature_tests.cxx.o  -o cmTC_50cb7 
+Building CXX object CMakeFiles/cmTC_af61a.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_af61a.dir/feature_tests.cxx.o -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_af61a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af61a.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_af61a.dir/feature_tests.cxx.o  -o cmTC_af61a 
 make[3]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 
@@ -433,15 +433,15 @@ make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Sn
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
 Change Dir: /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ad0e3/fast"
+Run Build Command:"/usr/bin/make" "cmTC_ab722/fast"
 make[2]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_ad0e3.dir/build.make CMakeFiles/cmTC_ad0e3.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_ab722.dir/build.make CMakeFiles/cmTC_ab722.dir/build
 make[3]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ad0e3.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_ad0e3.dir/feature_tests.cxx.o -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ad0e3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad0e3.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_ad0e3.dir/feature_tests.cxx.o  -o cmTC_ad0e3 
+Building CXX object CMakeFiles/cmTC_ab722.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_ab722.dir/feature_tests.cxx.o -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ab722
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab722.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_ab722.dir/feature_tests.cxx.o  -o cmTC_ab722 
 make[3]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 
@@ -508,15 +508,15 @@ make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Sn
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9160d/fast"
+Run Build Command:"/usr/bin/make" "cmTC_e7c22/fast"
 make[2]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_9160d.dir/build.make CMakeFiles/cmTC_9160d.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_e7c22.dir/build.make CMakeFiles/cmTC_e7c22.dir/build
 make[3]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9160d.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_9160d.dir/feature_tests.cxx.o -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9160d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9160d.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_9160d.dir/feature_tests.cxx.o  -o cmTC_9160d 
+Building CXX object CMakeFiles/cmTC_e7c22.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_e7c22.dir/feature_tests.cxx.o -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e7c22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7c22.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_e7c22.dir/feature_tests.cxx.o  -o cmTC_e7c22 
 make[3]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 
@@ -583,15 +583,15 @@ make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Sn
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_12bde/fast"
+Run Build Command:"/usr/bin/make" "cmTC_c1a27/fast"
 make[2]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_12bde.dir/build.make CMakeFiles/cmTC_12bde.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_c1a27.dir/build.make CMakeFiles/cmTC_c1a27.dir/build
 make[3]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_12bde.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_12bde.dir/feature_tests.cxx.o -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_12bde
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12bde.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_12bde.dir/feature_tests.cxx.o  -o cmTC_12bde 
+Building CXX object CMakeFiles/cmTC_c1a27.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_c1a27.dir/feature_tests.cxx.o -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c1a27
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1a27.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_c1a27.dir/feature_tests.cxx.o  -o cmTC_c1a27 
 make[3]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 
@@ -658,15 +658,15 @@ make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Sn
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a17bf/fast"
+Run Build Command:"/usr/bin/make" "cmTC_b782e/fast"
 make[2]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_a17bf.dir/build.make CMakeFiles/cmTC_a17bf.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_b782e.dir/build.make CMakeFiles/cmTC_b782e.dir/build
 make[3]: Entering directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a17bf.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_a17bf.dir/feature_tests.cxx.o -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_a17bf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a17bf.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_a17bf.dir/feature_tests.cxx.o  -o cmTC_a17bf 
+Building CXX object CMakeFiles/cmTC_b782e.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_b782e.dir/feature_tests.cxx.o -c /home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b782e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b782e.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_b782e.dir/feature_tests.cxx.o  -o cmTC_b782e 
 make[3]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/huynguyen/CodeLab/GithubRepo/CppND-Capstone-Snake-Game/build/CMakeFiles/CMakeTmp'
 
