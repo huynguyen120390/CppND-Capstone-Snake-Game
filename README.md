@@ -30,4 +30,8 @@ In this project, you can build your own C++ application or extend this Snake gam
 3. Compile: `cmake .. && make`
 4. Run it: `./SnakeGame`.
 
-## Rubric Points
+Other way: Utilize Makefile
+1. If there is no build directory, then at top level directory: `make build`
+2. Later on : `make all` to build and run
+3. If just want to run a compiled file : `make run`
+
