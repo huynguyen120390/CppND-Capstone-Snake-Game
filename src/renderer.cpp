@@ -39,7 +39,7 @@ Renderer::~Renderer() {
 }
 
 
-void Renderer::Render(Snake const snake, SDL_Point const &food, Fox const fox) {
+void Renderer::Render(Snake const snake, SDL_Point const &food, Fox const fox, SuperFood &superfood) {
   SDL_Rect block;
   block.w = screen_width / grid_width;
   block.h = screen_height / grid_height;
@@ -55,9 +55,15 @@ void Renderer::Render(Snake const snake, SDL_Point const &food, Fox const fox) {
   SDL_RenderFillRect(sdl_renderer, &block);
 
   // Render fox
-  SDL_SetRenderDrawColor(sdl_renderer, 0xFF, 0xFF, 0x00, 0x00);
+  SDL_SetRenderDrawColor(sdl_renderer, 0xFF, 0x99, 0x00,0xFF);
   block.x = static_cast<int>(fox.x) * block.w;
   block.y = static_cast<int>(fox.y) * block.h;
+  SDL_RenderFillRect(sdl_renderer, &block);
+
+  // Render superfood
+  SDL_SetRenderDrawColor(sdl_renderer, 0xCC, 0x00, 0x66,0xFF);
+  block.x = static_cast<int>(superfood.x) * block.w;
+  block.y = static_cast<int>(superfood.y) * block.h;
   SDL_RenderFillRect(sdl_renderer, &block);
 
   // Render snake's body
@@ -82,7 +88,7 @@ void Renderer::Render(Snake const snake, SDL_Point const &food, Fox const fox) {
   SDL_RenderPresent(sdl_renderer);
 }
 
-void Renderer::UpdateWindowTitle(int score, int fps) {
-  std::string title{"Snake Score: " + std::to_string(score) + " FPS: " + std::to_string(fps)};
+void Renderer::UpdateWindowTitle(int score, int fps, int time) {
+  std::string title{"Snake Score: " + std::to_string(score) + " FPS: " + std::to_string(fps) + " Time: " + std::to_string(time)};
   SDL_SetWindowTitle(sdl_window, title.c_str());
 }

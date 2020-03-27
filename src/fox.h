@@ -15,14 +15,14 @@ class Fox{
         bool FoxCell(int x, int y);
         Direction direction = Direction::up;
         float speed{1.0f};
-        bool move{true};
         float x{0};
         float y{0};
         void UpdatePosition();
-        void SelectMove();
-        void Appear();
+        void SetFreeze(bool freezed);
+        bool GetFreeze();
     private:
         int grid_width, grid_height;
+        bool freezed{false};
 };
 
 #endif

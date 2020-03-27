@@ -1,23 +1,25 @@
 #ifndef SUPERFOOD_H
 #define SUPERFOOD_H
-#include <mutex>
 #include <iostream>
 #include <thread>
 #include <future>
+#include <deque>
+#include <condition_variable>
+#include "fox.h"
 
 class SuperFood{
     public:
         SuperFood();
-        ~SuperFood()
-        void FreezeSnake();
+        ~SuperFood();
+        //SuperFood(int grid_width, int grid_height);
+        void FreezeFox(Fox &&fox);
+        void CheckReleaseFox(Fox &&fox);
         float x,y;
         bool appear{false};
-        bool freeze{false};
+        std::chrono::time_point<std::chrono::system_clock> startT; 
     private:
-        std::mutex _mutex; 
-        std::condition_variable _cond;
-        std::deque<bool> _mess;
-
+        const int FREEZE_TIME = 3;
+        int grid_width,grid_height;
 
 };
 #endif

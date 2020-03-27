@@ -2,20 +2,9 @@
 #include <cmath>
 #include <iostream>
 
-
-
 Fox::Fox(){};
 Fox::~Fox(){};
 Fox::Fox(int grid_width, int grid_height):grid_width(grid_width), grid_height(grid_height){}
-//Fox &Fox::operator=(const Fox &source){};
-//Fox(const Fox &source){};
-//Fox(const Fox &&source){};
-//Fox &Fox::operator=(const Fox &&source){};
-
-void Fox::SelectMove(){
-    //direction = moveDirection(engine);
-    direction = Fox::Direction::up;
-}
 
 void Fox::UpdatePosition(){
     std::random_device dev;
@@ -54,4 +43,11 @@ bool Fox::FoxCell(int x, int y) {
     return true;
   }
   return false;
+}
+
+void Fox::SetFreeze(bool freezed){
+  this->freezed = freezed;
+}
+bool Fox::GetFreeze(){
+  return this->freezed;
 }
